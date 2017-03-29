@@ -1,0 +1,22 @@
+{
+  "name": "my-package-json-1",
+  "version": "1.0.0",
+  "description": "Package json for test_project_1",
+  "main": "flickr-fetcher-spec.js",
+  "dependencies": {
+    "chai": "^3.5.0"
+  },
+  "devDependencies": {
+    "cheerio": "^0.22.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.bitcomp.intra:magdalena_popinska/test_project_1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": []
+}
