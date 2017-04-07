@@ -35,7 +35,6 @@ describe('#photoObjToURL()', () => {
 });
 
 // 3
-
 describe('#photoObjToURL()', () => {
   it('should take a photo object from Flickr and return a string', () => {
     let input = {
