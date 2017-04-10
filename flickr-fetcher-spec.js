@@ -114,7 +114,7 @@ describe('#fetchFlickrData()', () => {
           FlickrFetcher.fetchFlickrData(apiKey, fakeFetcher).then((actual) => {
             expect(actual).to.eql(fakeData);
             done();
-          } // ERROR. bez przecinka!
+          } // LINTER'S ERROR. missing trailing comma
         );
         });
 });

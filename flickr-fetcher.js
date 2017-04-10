@@ -49,12 +49,14 @@ const FlickrFetcher = {
     .then(data => data.photos.photo.map(FlickrFetcher.transformPhotoObj));
   },
 };
-// ***niedziałająca końcówka
+
+// ***Doesn't work***
 // FlickrFetcher.fetchPhotos('8060d4cdac3ceb86af470aae29af3a56')
 //     .then(PhotoLister.photoListToHTML)
 //     .then((photosHTML) => {
 //       PhotoLister.addPhotosToElement($, '#mydiv', photosHTML);
 //     });
+// END***Doesn't work***
 
 // for work with browser too
 if ((typeof module !== 'undefined') && (typeof module.exports !== 'undefined')) {
